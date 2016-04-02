@@ -1,0 +1,34 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: 차단 - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\a\LOCALS~1\Temp\RSPFC.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/차단.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\Documents and Settings\a\grewar\차단\차단Dlg.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\a\LOCALS~1\Temp\RSPFC.tmp" 
+Creating command line "link.exe /nologo /subsystem:windows /incremental:no /pdb:"Release/차단.pdb" /machine:I386 /out:"Release/차단.exe"  ".\Release\차단.obj" ".\Release\차단Dlg.obj" ".\Release\StdAfx.obj" ".\Release\차단.res" "
+<h3>Output Window</h3>
+Compiling...
+차단Dlg.cpp
+C:\Documents and Settings\a\grewar\차단\차단Dlg.cpp(256) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+C:\Documents and Settings\a\grewar\차단\차단Dlg.cpp(259) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+C:\Documents and Settings\a\grewar\차단\차단Dlg.cpp(262) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+C:\Documents and Settings\a\grewar\차단\차단Dlg.cpp(265) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+C:\Documents and Settings\a\grewar\차단\차단Dlg.cpp(268) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+C:\Documents and Settings\a\grewar\차단\차단Dlg.cpp(271) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+C:\Documents and Settings\a\grewar\차단\차단Dlg.cpp(291) : warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+Linking...
+
+
+
+<h3>Results</h3>
+차단.exe - 0 error(s), 7 warning(s)
+</pre>
+</body>
+</html>
